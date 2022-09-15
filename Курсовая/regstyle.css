@@ -1,0 +1,38 @@
+.main_title,
+.subtitile {
+    text-align: center;
+}
+.field {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.textLB {
+    width: 350px;
+    white-space: nowrap;
+}
+.inputLB {
+    width: 450px;
+}
+.textLB label {
+    margin-left: 100%;
+    font-size: 20px;
+    padding: 0px;
+    height: 20px;
+}
+.inputLB input {
+    margin-right: 100%;
+    padding: 0px;
+    height: 20px;
+}
+.regBtn,
+.clearBtn {
+    display: block;
+}
+.regBtn {
+    margin-left: 50px;
+}
+.clearBtn {
+    margin-left: 50px;
+}

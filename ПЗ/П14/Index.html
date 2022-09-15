@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>PL</title>
+  <script>
+    function ajax1(picNum) {
+      var txtSend = picNum;
+      var request = new XMLHttpRequest();
+      request.onreadystatechange = function () {
+        if (request.readyState == 4) {
+          if (request.status == 200) {
+            var imn = document.getElementById("imgN");
+            imn.innerHTML = request.responseText;
+          } else {
+            alert("Помилка " + request.status + ": " + request.statusText);
+          }
+        }
+      }
+      request.open("GET", "http://localhost:3000?Q1=" + txtSend, true);
+      request.send(null);
+    }
+  </script>
+</head>
+
+<body>
+  <center>
+    <h1>Impery</h1>
+    <table border="0" cellpadding="0" cellspacing="0" width="237" bg="#ffccff">
+      <tr>
+        <td align="center" valign="middle"><img src="PictureClient/House1_sm.jpg" onclick="ajax1(1)"></td>
+        <td align="center" valign="middle"><img src="PictureClient/House2_sm.jpg" onclick="ajax1(2)"></td>
+        <td align="center" valign="middle"><img src="PictureClient/House3_sm.jpg" onclick="ajax1(3)"></td>
+        <td align="center" valign="middle"><img src="PictureClient/House4_sm.jpg" onclick="ajax1(4)"></td>
+      </tr>
+      <td align="center" valign="middle">Будинок 1</td>
+      <td align="center" valign="middle">Будинок 2</td>
+      <td align="center" valign="middle">Будинок 3</td>
+      <td align="center" valign="middle">Будинок 4</td>
+    </table><br>
+    <div id="imgN"></div>
+  </center>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.btncntr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.main_title {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subtitile {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.field {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.textLB {
+    width: 300px;
+    white-space: nowrap;
+}
+.inputLB {
+    width: 600px;
+}
+.textLB label {
+    margin-left: 100%;
+    font-size: 20px;
+    padding: 0px;
+    height: 20px;
+}
+.inputLB input {
+    margin-right: 100%;
+    padding: 0px;
+    height: 20px;
+}

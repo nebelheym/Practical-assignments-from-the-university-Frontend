@@ -1,0 +1,213 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Varela Round", sans-serif;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    align-items: center;
+    width: 100%;
+}
+
+.intro {
+    height: 250vh;
+    width: 100%;
+
+    background: url(../img/background.jpg) center no-repeat;
+    background-size: cover;
+}
+.navigate {
+    text-align: center;
+    font-size: 25px;
+}
+.navigation-bar {
+    margin-top: 50px;
+}
+a {
+    color: white;
+}
+.selectedIndex {
+    text-shadow: 5px 5px 5px black;
+    color: gray;
+}
+.main {
+    width: 100%;
+    height: 500px;
+}
+.main_title {
+    text-shadow: 2px 2px 2px black;
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+.guitar_img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main p {
+    font-size: 30px;
+    margin-top: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.yamaha_img {
+    display: block;
+    width: 130px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prices_img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heart_img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo_img {
+    display: block;
+    width: 440px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foo {
+    display: block;
+    width: 440px;
+    margin: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo1_img {
+    display: block;
+    padding: 25px;
+    width: 440px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services {
+    width: 100%;
+    font-size: 30px;
+    max-width: 520px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.aboutus p {
+    font-size: 25px;
+    margin-top: 20px;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.introabout {
+    height: 650vh;
+    width: 100%;
+
+    background: url(../img/background.jpg) center no-repeat;
+    background-size: cover;
+}
+.maincontacts {
+    font-size: 25px;
+    margin-top: 50px;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.contacts {
+    font-size: 25px;
+    margin-top: 20px;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.guitarssell {
+    display: block;
+    width: 120px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.price_title {
+    text-shadow: 2px 2px 2px black;
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+.guitarprice {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.price_images {
+    width: 600px;
+}
+.guitarprice_text {
+    width: 100%;
+    margin-right: auto;
+    word-break: break-all;
+}
+.void {
+    width: 600px;
+    float: left;
+}
+.guitarssell2 {
+    transform: scale(-1, 1);
+    display: block;
+    width: 120px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: auto;
+}
+.description {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.priceText {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+}
